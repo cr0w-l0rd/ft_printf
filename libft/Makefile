@@ -6,7 +6,7 @@
 #    By: mbiusing <mbiusing@student.42kl.edu.my>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/11/21 13:39:08 by mbiusing          #+#    #+#              #
-#    Updated: 2025/11/21 17:19:51 by mbiusing         ###   ########.fr        #
+#    Updated: 2025/12/05 02:14:27 by mbiusing         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -91,7 +91,7 @@ all: $(NAME)
 $(NAME): $(OBJ)
 	@echo "Compiling..."
 	@$(AR) $(NAME) $(OBJ)
-	@echo "$(NAME) has just been birthed into existence along with the fellow object files"
+	@echo "$(NAME) has just been birthed into existence along with its fellow object files"
 
 # make bonus #
 bonus: all
@@ -100,7 +100,7 @@ bonus: all
 
 clean:
 	@$(RM) $(OBJ)
-	@echo "$(OBJ) has just been wiped out"
+	@echo "libft's object files has also just been wiped out"
 
 # make fclean - clean + remove libft.a #
 
