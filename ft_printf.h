@@ -6,7 +6,7 @@
 /*   By: mbiusing <mbiusing@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/28 16:48:25 by mbiusing          #+#    #+#             */
-/*   Updated: 2025/12/05 01:34:42 by mbiusing         ###   ########.fr       */
+/*   Updated: 2025/12/05 02:29:16 by mbiusing         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@
 int ft_printf(const char *str, ...);
 
 /* formatter */
-int ft_format(char spec, va_list args);
+int ft_format(char c, va_list args);
 
 /* char/string */
 int ft_putchar_pf(char c);
