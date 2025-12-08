@@ -6,7 +6,7 @@
 #    By: mbiusing <mbiusing@student.42kl.edu.my>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/11/28 16:43:42 by mbiusing          #+#    #+#              #
-#    Updated: 2025/12/05 02:25:30 by mbiusing         ###   ########.fr        #
+#    Updated: 2025/12/07 22:16:05 by mbiusing         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -58,7 +58,7 @@ fclean: clean
 re: fclean all
 
 test:
-	$(CC) $(CFLAGS) $(FILE).c main.c $(NAME) -o test.out
+	$(CC) $(CFLAGS) $(FILE).c $(NAME) -o test.out
 	@echo "Built test: ./test.out"
 
 .PHONY: all clean fclean re test
