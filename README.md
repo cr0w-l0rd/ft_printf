@@ -2,11 +2,11 @@
 
 # ft_printf
 
-## DESCRIPTION:
+## DESCRIPTION
 
 We have to recreate the printf() function from libc.
 
-Requirements Set;
+### Requirements Set:
 • Do not implement the buffer management of the original printf().
 • Your function has to handle the following conversions: cspdiuxX%
 • Your function will be compared against the original printf().
@@ -16,5 +16,8 @@ Using the libtool command is forbidden.
 • Your header file must be named ft_printf.h and must contain the prototype of
 your ft_printf() function.
 
-New Things I Learnt;
+### New Things I Learnt:
 • The printf() function is a variadic function, which can take a variable number of arguments.
+
+## RESOURCES
+
