@@ -6,16 +6,13 @@
 /*   By: mbiusing <mbiusing@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/05 00:03:10 by mbiusing          #+#    #+#             */
-/*   Updated: 2025/12/05 01:34:58 by mbiusing         ###   ########.fr       */
+/*   Updated: 2026/01/07 13:54:14 by mbiusing         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-/*
-	The int argument is converted to signed decimal notation
-*/
-int	ft_putnbr_pf(int n)
+int	ft_putnbr_pf(long n)
 {
 	int	written;
 
