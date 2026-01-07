@@ -19,8 +19,11 @@ We have to recreate the printf() function from libc.
 • The printf() function is a variadic function, which can take a variable number of arguments.
 
 ## INSTRUCTIONS
-• To create the static library, `ft_printf.a`, type in `make` in the terminal.
 
+### Makefile Commands
+• Type in `make` in the terminal : to create the object files and the objs library to create the static library, `ft_printf.a`.
+• Type in `make clean` in the terminal : to remove all the object files and the objs directory.
+• Type in `make fclean` in the terminal : which functions the same as `makeclean` but 
 
 ## RESOURCES
 
