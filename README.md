@@ -18,5 +18,9 @@ We have to recreate the printf() function from libc.
 ### New Things I Learnt:
 • The printf() function is a variadic function, which can take a variable number of arguments.
 
+## INSTRUCTIONS
+• To create the static library, `ft_printf.a`, type in `make` in the terminal.
+
+
 ## RESOURCES
 
