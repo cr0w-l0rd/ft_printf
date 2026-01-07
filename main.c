@@ -6,7 +6,7 @@
 /*   By: mbiusing <mbiusing@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/03 15:22:03 by mbiusing          #+#    #+#             */
-/*   Updated: 2025/12/05 00:37:05 by mbiusing         ###   ########.fr       */
+/*   Updated: 2026/01/07 14:06:57 by mbiusing         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 int main(void)
 {
-	ft_printf("123456789");
-	printf("123456789");
+	ft_printf("ft_printf : 123456789\n");
+	printf("printf : 123456789\n");
 	return (0);
 }
