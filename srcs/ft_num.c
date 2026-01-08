@@ -40,7 +40,7 @@ int	ft_putptr_pf(void *ptr)
 	unsigned long	addr;
 
 	if (!ptr)
-		return (ft_putstr_pf("0x0"));
+		return (ft_putstr_pf("(nil)"));
 	addr = (unsigned long)ptr;
 	ft_putstr_pf("0x");
 	return (ft_strlen("0x") + ft_putnbr_base_pf(addr, HEX_LOW));
