@@ -30,7 +30,8 @@ installation, and/or execution.
 5. Additional sections may be required depending on the project (e.g., usage examples, feature list, technical choices, etc.).
 6. A detailed explanation and justification of the chosen **algorithm** and **data structure** must also be included.
 
-• `va_arg`, `va_end`, `va_start` macros
+• `va_arg`, `va_end`, `va_start` macros.  
+• Difference between `(nil)` and `(null)`.  
 
 ## INSTRUCTIONS
 
