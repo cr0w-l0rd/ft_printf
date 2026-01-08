@@ -22,16 +22,13 @@ ft_printf is a recreation of the printf() function from libc, with the following
 • What is needed in a README.md file : (for this specific project)...  
 1. The very first line must be italicized and read: This project has been created as part
 of the 42 curriculum by <login1>[, <login2>[, <login3>[...]]].
-2. A “Description” section that clearly presents the project, including its goal and a
+2. A “**Description**” section that clearly presents the project, including its goal and a
 brief overview.
-3. An “Instructions” section containing any relevant information about compilation,
+3. An “**Instructions**” section containing any relevant information about compilation,
 installation, and/or execution.
-4. A “Resources” section listing classic references related to the topic (documentation, articles, tutorials, etc.), as well as a description of how AI was used —
-specifying for which tasks and which parts of the project.
-5. Additional sections may be required depending on the project (e.g., usage
-examples, feature list, technical choices, etc.).
-6. A detailed explanation and justification of the chosen algorithm and data structure
-must also be included.
+4. A “**Resources**” section listing classic references related to the topic (documentation, articles, tutorials, etc.), as well as a description of how AI was used — specifying for which tasks and which parts of the project.
+5. Additional sections may be required depending on the project (e.g., usage examples, feature list, technical choices, etc.).
+6. A detailed explanation and justification of the chosen **algorithm** and **data structure** must also be included.
 
 • `va_arg`, `va_end`, `va_start` macros
 
