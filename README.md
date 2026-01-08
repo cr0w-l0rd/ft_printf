@@ -18,7 +18,7 @@ ft_printf is a recreation of the printf() function from libc, with the following
 ### New Things I Learnt:
 • The printf() function is a `variadic function`, which can take a variable number of arguments.  
 • `cp` (added into the Makefile).  
-• Adjusted my Makefile so that when I enter in `make`, it will create the object files into a seperate `objs` directory. So that the files aren't mixed with the source and other files.  
+• Adjusted my Makefile so that when I enter in `make`, it will create the object files into a `objs` directory. So that they aren't mixed with the source files and other files.  
 • What is needed in a README.md file : (for this specific project)...  
 1. The very first line must be italicized and read: This project has been created as part
 of the 42 curriculum by mbiusing.
