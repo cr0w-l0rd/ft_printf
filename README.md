@@ -21,7 +21,7 @@ ft_printf is a recreation of the printf() function from libc, with the following
 • Adjusted my Makefile so that when I enter in `make`, it will create the object files into a seperate `objs` directory. So that the files aren't mixed with the source and other files.  
 • What is needed in a README.md file : (for this specific project)...  
 1. The very first line must be italicized and read: This project has been created as part
-of the 42 curriculum by <login1>[, <login2>[, <login3>[...]]].
+of the 42 curriculum by <mbiusing>.
 2. A “**Description**” section that clearly presents the project, including its goal and a
 brief overview.
 3. An “**Instructions**” section containing any relevant information about compilation,
