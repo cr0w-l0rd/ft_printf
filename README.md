@@ -17,15 +17,15 @@ ft_printf is a recreation of the printf() function from libc, with the following
 
 ## ft_printf's format specifiers
 
-| Specifier | 					Description					 |
-| --------- | ---------------------------------------------- |
-| %c		| Prints a single character						 |
-| %s		| Prints a string								 |
-| %p		| Prints a pointer address in hexadecimal		 |
-| %d / %i	| Prints a signed decimal integer				 |
-| %u		| Prints an unsigned decimal integer			 |
-| %x		| Prints a lowercase hexadecimal integer		 |
-| %X		| Prints an uppercase hexadecimal integer		 |
+| 			Specifier		 | 					Description					 |
+| -------------------------- | --------------------------------------------- |
+| 			```%c```		 | Prints a single character					 |
+| 			```%s```		 | Prints a string								 |
+| 			```%p```		 | Prints a pointer address in hexadecimal		 |
+| 	```%d``` / ```%i```		 | Prints a signed decimal integer				 |
+| 			```%u```		 | Prints an unsigned decimal integer			 |
+| 			```%x```		 | Prints a lowercase hexadecimal integer		 |
+|			 ```%X```		 | Prints an uppercase hexadecimal integer		 |
 
 ## INSTRUCTIONS
 
