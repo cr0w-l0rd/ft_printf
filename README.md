@@ -15,6 +15,28 @@ ft_printf is a recreation of the printf() function from libc, with the following
 • Your libftprintf.a has to be created at the root of your repository.  
 • Your header file must be named ft_printf.h and must contain the prototype of your ft_printf() function.  
 
+## ft_printf's format specifiers
+
+| Specifier | 					Description					 |
+| --------- | ---------------------------------------------- |
+| %c		| Prints a single character						 |
+| %s		| Prints a string								 |
+| %p		| Prints a pointer address in hexadecimal		 |
+| %d / %i	| Prints a signed decimal integer				 |
+| %u		| Prints an unsigned decimal integer			 |
+| %x		| Prints a lowercase hexadecimal integer		 |
+| %X		| Prints an uppercase hexadecimal integer		 |
+
+## INSTRUCTIONS
+
+### Makefile Commands
+• Type in `make` in the terminal : to create the object files and the objs library to create the static library, `ft_printf.a`.  
+• Type in `make clean` in the terminal : to remove all the object files and the objs directory.  
+• Type in `make fclean` in the terminal : which functions the same as `makeclean` but it also removes the `ft_printf.a`.  
+• Type in `make re` in the terminal : to rebuilds `ft_printf.a`, by combining the usage of `make fclean` then `make`.  
+• Type in `make test` then `FILE=[insertnameoffilewithoutthe.c` : to compile the file with the int main and its following flags to produce a `test.out` file.  
+• Type in `make rmtest` : to remove the `test.out` file.  
+
 ### New Things I Learnt:
 • The printf() function is a `variadic function`, which can take a variable number of arguments.  
 • `cp` (added into the Makefile).  
@@ -33,16 +55,6 @@ installation, and/or execution.
 
 • `va_arg`, `va_end`, `va_start` macros.  
 • Difference between `(nil)` and `(null)`.  
-
-## INSTRUCTIONS
-
-### Makefile Commands
-• Type in `make` in the terminal : to create the object files and the objs library to create the static library, `ft_printf.a`.  
-• Type in `make clean` in the terminal : to remove all the object files and the objs directory.  
-• Type in `make fclean` in the terminal : which functions the same as `makeclean` but it also removes the `ft_printf.a`.  
-• Type in `make re` in the terminal : to rebuilds `ft_printf.a`, by combining the usage of `make fclean` then `make`.  
-• Type in `make test` then `FILE=[insertnameoffilewithoutthe.c` : to compile the file with the int main and its following flags to produce a `test.out` file.  
-• Type in `make rmtest` : to remove the `test.out` file.  
 
 ## RESOURCES
 
