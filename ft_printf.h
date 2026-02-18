@@ -6,7 +6,7 @@
 /*   By: mbiusing <mbiusing@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/28 16:48:25 by mbiusing          #+#    #+#             */
-/*   Updated: 2026/01/07 13:55:54 by mbiusing         ###   ########.fr       */
+/*   Updated: 2026/02/18 17:46:30 by mbiusing         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,22 +23,22 @@
 # define STD_OUT 1
 
 /* main */
-int ft_printf(const char *str, ...);
+int	ft_printf(const char *str, ...);
 
 /* formatter */
-int ft_format(char c, va_list args);
+int	ft_format(char c, va_list args);
 
-/* char/string */
-int ft_putchar_pf(char c);
-int ft_putstr_pf(char *s);
+/* char & string */
+int	ft_putchar_pf(char c);
+int	ft_putstr_pf(char *s);
 
 /* numbers */
-int ft_putnbr_pf(long n);
-int ft_putunbr_pf(unsigned long n);
-int ft_puthex_pf(unsigned long n, char *base);
-int ft_putptr_pf(void *ptr);
+int	ft_putnbr_pf(long n);
+int	ft_putunbr_pf(unsigned long n);
+int	ft_puthex_pf(unsigned long n, char *base);
+int	ft_putptr_pf(void *ptr);
 
 /* generic */
-int ft_putnbr_base_pf(unsigned long n, char *base);
+int	ft_putnbr_base_pf(unsigned long n, char *base);
 
 #endif

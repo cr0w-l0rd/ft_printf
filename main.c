@@ -6,14 +6,14 @@
 /*   By: mbiusing <mbiusing@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/03 15:22:03 by mbiusing          #+#    #+#             */
-/*   Updated: 2026/01/07 14:06:57 by mbiusing         ###   ########.fr       */
+/*   Updated: 2026/02/18 17:47:35 by mbiusing         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 #include <stdio.h>
 
-int main(void)
+int	main(void)
 {
 	ft_printf("ft_printf : 123456789\n");
 	printf("printf : 123456789\n");

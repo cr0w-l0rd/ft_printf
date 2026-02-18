@@ -6,7 +6,7 @@
 /*   By: mbiusing <mbiusing@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/05 00:06:20 by mbiusing          #+#    #+#             */
-/*   Updated: 2025/12/05 01:33:23 by mbiusing         ###   ########.fr       */
+/*   Updated: 2026/02/18 17:47:12 by mbiusing         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@ int	ft_putnbr_base_pf(unsigned long n, char *base)
 	len = ft_strlen(base);
 	if (n == 0)
 		return (ft_putchar_pf('0'));
-
 	i = 0;
 	while (n > 0)
 	{

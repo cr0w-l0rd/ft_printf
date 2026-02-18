@@ -6,7 +6,7 @@
 /*   By: mbiusing <mbiusing@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/28 16:42:31 by mbiusing          #+#    #+#             */
-/*   Updated: 2025/12/05 02:25:37 by mbiusing         ###   ########.fr       */
+/*   Updated: 2026/02/18 17:47:04 by mbiusing         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,7 +64,7 @@ int	ft_printf(const char *str, ...)
 		{
 			i++;
 			if (!str[i])
-				break;
+				break ;
 			bytes += ft_format(str[i], n_arg);
 		}
 		else
