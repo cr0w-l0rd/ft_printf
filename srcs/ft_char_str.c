@@ -6,7 +6,7 @@
 /*   By: mbiusing <mbiusing@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/03 15:38:17 by mbiusing          #+#    #+#             */
-/*   Updated: 2026/02/18 17:46:39 by mbiusing         ###   ########.fr       */
+/*   Updated: 2026/02/18 17:57:54 by mbiusing         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,8 @@
 
 int	ft_putchar_pf(char c)
 {
-	return (ft_putchar_fd(c, STD_OUT), 1);
+	ft_putchar_fd(c, STD_OUT);
+	return (1);
 }
 
 int	ft_putstr_pf(char *s)
