@@ -26,6 +26,7 @@ ft_printf is a recreation of the printf() function from libc, with the following
 | 			```%u```		 | Prints an unsigned decimal integer			 |
 | 			```%x```		 | Prints a lowercase hexadecimal integer		 |
 |			 ```%X```		 | Prints an uppercase hexadecimal integer		 |
+|			```%%```		 | Prints a literal percent sign				 |
 
 ## INSTRUCTIONS
 
