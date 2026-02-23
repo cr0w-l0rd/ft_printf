@@ -6,7 +6,7 @@
 /*   By: mbiusing <mbiusing@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/05 00:03:10 by mbiusing          #+#    #+#             */
-/*   Updated: 2026/02/18 18:00:29 by mbiusing         ###   ########.fr       */
+/*   Updated: 2026/02/23 21:05:25 by mbiusing         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,15 +14,18 @@
 
 int	ft_putnbr_pf(long n)
 {
-	int	written;
+	unsigned long	nb;
+	int				written;
 
 	written = 0;
 	if (n < 0)
 	{
 		written += ft_putchar_pf('-');
-		n = -n;
+		nb = (unsigned long)(-(n + 1)) + 1;
 	}
-	return (written + ft_putnbr_base_pf((unsigned long)n, DEC));
+	else
+		nb = (unsigned long)n;
+	return (written + ft_putnbr_base_pf(nb, DEC));
 }
 
 int	ft_putunbr_pf(unsigned long n)
