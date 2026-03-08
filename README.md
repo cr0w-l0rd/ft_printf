@@ -35,7 +35,7 @@ ft_printf is a recreation of the printf() function from libc, with the following
 • Type in `make clean` in the terminal : to remove all the object files and the objs directory.  
 • Type in `make fclean` in the terminal : which functions the same as `makeclean` but it also removes the `ft_printf.a`.  
 • Type in `make re` in the terminal : to rebuilds `ft_printf.a`, by combining the usage of `make fclean` then `make`.  
-• Type in `make test` then `FILE=[insertnameoffilewithoutthe.c` : to compile the file with the int main and its following flags to produce a `test.out` file.  
+• Type in `make test` then `FILE=main` or whatever file you decided to add (must be without the .c) : to compile the file with its following flags to produce a `test.out` file.  
 • Type in `make rmtest` : to remove the `test.out` file.  
 
 ### New Things I Learnt:
