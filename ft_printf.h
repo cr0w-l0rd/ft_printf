@@ -6,7 +6,7 @@
 /*   By: mbiusing <mbiusing@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/28 16:48:25 by mbiusing          #+#    #+#             */
-/*   Updated: 2026/03/08 17:17:17 by mbiusing         ###   ########.fr       */
+/*   Updated: 2026/03/08 17:20:17 by mbiusing         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ int	ft_putstr_pf(char *s);
 
 /* numbers */
 int	ft_putnbr_pf(int n);
-int	ft_putunbr_pf(unsigned long n);
+int	ft_putunbr_pf(unsigned int n);
 int	ft_puthex_pf(unsigned long n, char *base);
 int	ft_putptr_pf(void *ptr);
 
