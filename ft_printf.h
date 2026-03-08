@@ -6,7 +6,7 @@
 /*   By: mbiusing <mbiusing@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/28 16:48:25 by mbiusing          #+#    #+#             */
-/*   Updated: 2026/02/18 17:46:30 by mbiusing         ###   ########.fr       */
+/*   Updated: 2026/03/08 17:07:55 by mbiusing         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,7 @@ int	ft_putunbr_pf(unsigned long n);
 int	ft_puthex_pf(unsigned long n, char *base);
 int	ft_putptr_pf(void *ptr);
 
-/* generic */
+/* accepts any base */
 int	ft_putnbr_base_pf(unsigned long n, char *base);
 
 #endif
