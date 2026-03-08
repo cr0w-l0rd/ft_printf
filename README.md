@@ -55,7 +55,10 @@ installation, and/or execution.
 6. A detailed explanation and justification of the chosen **algorithm** and **data structure** must also be included.
 
 • `va_arg`, `va_end`, `va_start` macros.  
-• Difference between `(nil)` and `(null)`.  
+• Difference between `(nil)` and `(null)`.
+
+### Testing
+Made a `main.c` for simple testing and also I used the [Tripouille : printf Tester](https://github.com/Tripouille/printfTester#) for extensive things I might've overlooked.
 
 ## RESOURCES
 
@@ -66,4 +69,4 @@ installation, and/or execution.
 4. [Static Library](https://en.wikipedia.org/wiki/Static_library)
 
 ### Use of AI:
-• Chatgpt : find errors, explain complex concepts
+• Chatgpt : find errors, explain certain concepts

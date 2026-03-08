@@ -6,7 +6,7 @@
 /*   By: mbiusing <mbiusing@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/28 16:39:03 by mbiusing          #+#    #+#             */
-/*   Updated: 2026/02/28 17:34:33 by mbiusing         ###   ########.fr       */
+/*   Updated: 2026/03/08 13:40:19 by mbiusing         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,16 @@ int	main(void)
 {
 	int		meow;
 	char	*heap_ptr;
+	int a;
+	int b;
 
 	meow = 42;
 	heap_ptr = (char *)malloc(1);
+
+	a = ft_printf("\nhello %d %s", 42, "meow");
+	b = printf("\nhello %d %s", 42, "meow");
+	printf("\n\n^^ft_printf returned : %d\n", a);
+	printf("^^printf returned    : %d\n", b);
 
 	ft_printf("\nft_printf	: (%%c) single char : %c | %c | %c | %c | %c | %c\n",
 		'A', '0', '\n', 0, 127, -1);
@@ -80,4 +87,3 @@ int	main(void)
 	free(heap_ptr);
 	return (0);
 }
-
