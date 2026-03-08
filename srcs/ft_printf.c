@@ -6,7 +6,7 @@
 /*   By: mbiusing <mbiusing@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/28 16:42:31 by mbiusing          #+#    #+#             */
-/*   Updated: 2026/02/18 17:47:04 by mbiusing         ###   ########.fr       */
+/*   Updated: 2026/03/08 16:59:47 by mbiusing         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,11 +51,11 @@ int	ft_format(char c, va_list args)
 */
 int	ft_printf(const char *str, ...)
 {
-	va_list	n_arg;
+	va_list	args;
 	int		bytes;
 	int		i;
 
-	va_start(n_arg, str);
+	va_start(args, str);
 	bytes = 0;
 	i = 0;
 	while (str[i])
@@ -65,12 +65,12 @@ int	ft_printf(const char *str, ...)
 			i++;
 			if (!str[i])
 				break ;
-			bytes += ft_format(str[i], n_arg);
+			bytes += ft_format(str[i], args);
 		}
 		else
 			bytes += ft_putchar_pf(str[i]);
 		i++;
 	}
-	va_end(n_arg);
+	va_end(args);
 	return (bytes);
 }
