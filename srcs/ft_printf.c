@@ -6,7 +6,7 @@
 /*   By: mbiusing <mbiusing@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/28 16:42:31 by mbiusing          #+#    #+#             */
-/*   Updated: 2026/03/08 16:59:47 by mbiusing         ###   ########.fr       */
+/*   Updated: 2026/03/08 17:18:52 by mbiusing         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ int	ft_format(char c, va_list args)
 	else if (c == 'p')
 		return (ft_putptr_pf(va_arg(args, void *)));
 	else if (c == 'd' || c == 'i')
-		return (ft_putnbr_pf((long)va_arg(args, int)));
+		return (ft_putnbr_pf(va_arg(args, int)));
 	else if (c == 'u')
 		return (ft_putunbr_pf(va_arg(args, unsigned int)));
 	else if (c == 'x')

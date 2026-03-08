@@ -6,16 +6,16 @@
 /*   By: mbiusing <mbiusing@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/05 00:03:10 by mbiusing          #+#    #+#             */
-/*   Updated: 2026/02/23 21:05:25 by mbiusing         ###   ########.fr       */
+/*   Updated: 2026/03/08 17:18:31 by mbiusing         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_putnbr_pf(long n)
+int	ft_putnbr_pf(int n)
 {
-	unsigned long	nb;
-	int				written;
+	long	nb;
+	int		written;
 
 	written = 0;
 	if (n < 0)
@@ -28,7 +28,7 @@ int	ft_putnbr_pf(long n)
 	return (written + ft_putnbr_base_pf(nb, DEC));
 }
 
-int	ft_putunbr_pf(unsigned long n)
+int	ft_putunbr_pf(unsigned int n)
 {
 	return (ft_putnbr_base_pf(n, DEC));
 }
